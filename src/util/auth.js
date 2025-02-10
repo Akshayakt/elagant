@@ -35,3 +35,13 @@ export function canActivateLoader() {
 
 	return null;
 }
+
+export function logoutLoader() {
+	const userDetails = getAuthData();
+	if (userDetails) {
+		localStorage.removeItem("userDetails");
+		localStorage.removeItem("expirationTime");
+	}
+
+	return null;
+}

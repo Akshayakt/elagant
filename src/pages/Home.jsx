@@ -1,5 +1,7 @@
-import Header from "../components/Header";
-
 export default function HomePage() {
-	return <Header />;
+	return (
+		<section className="contents-wrapper">
+			<h1>Home</h1>
+		</section>
+	)
 }

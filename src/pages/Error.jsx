@@ -16,13 +16,13 @@ function ErrorPage() {
 	}
 
 	return (
-		<>
+		<section className="contents-wrapper">
 			<div>
 				<h1>{title}</h1>
 				<p>{message}</p>
 				<Link to="/">Go To Home</Link>
 			</div>
-		</>
+		</section>
 	);
 }
 

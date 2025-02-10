@@ -1,0 +1,26 @@
+.cart-wrapper {
+	align-items: start;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 3em;
+}
+
+.cart-table {
+	border-collapse: collapse;
+	flex: 1;
+}
+
+.cart-table th {
+	border-bottom: 1px solid #605e5e;
+	padding-bottom: 20px;
+	text-align: left;
+}
+
+.cart-table td {
+	border-bottom: 1px solid #f3f5f7;
+}
+
+.quantity-col {
+	padding-right: 15px;
+	width: 14%;
+}

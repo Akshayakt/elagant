@@ -3,6 +3,9 @@ import { Outlet, useLoaderData, useSubmit } from "react-router-dom";
 
 import { getTokenDuration } from "../util/auth";
 
+import Header from "../components/UI/Header";
+import Footer from "../components/UI/Footer";
+
 export default function RootPage() {
 	const userData = useLoaderData();
 	const submit = useSubmit();
@@ -24,9 +27,10 @@ export default function RootPage() {
 
 	return (
 		<>
-			{/* <MainNavigation /> */}
-			<main>
+			<main className={userData && userData !== "EXPIRED" ? 'home-container' : 'auth-container'}>
+				{userData && userData !== "EXPIRED" && <Header /> }
 				<Outlet />
+				{userData && userData !== "EXPIRED" && <Footer /> }
 			</main>
 		</>
 	);

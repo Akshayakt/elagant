@@ -1,0 +1,11 @@
+.input-wrapper {
+    padding: 10px;
+}
+
+.input-wrapper label {
+    font-size: 0.88em;
+}
+
+.input-wrapper input {
+    margin-top: 5px;
+}

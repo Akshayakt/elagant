@@ -1,0 +1,31 @@
+.aside {
+    flex: 0 0 25%;
+}
+
+.aside h2 {
+    font-weight: 500;
+    margin: 0 0 0 10px;
+}
+
+.aside h3 {
+    font-weight: 500;
+    margin: 0 0 15px;
+    text-transform: uppercase;
+}
+
+.filter-list {
+    margin-top: 25px;
+}
+
+.filter-item {
+    color: #6c7275;
+    cursor: pointer;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.selected-item {
+    color: var(--primary-color);
+    font-weight: 600;
+    text-decoration: underline;
+}

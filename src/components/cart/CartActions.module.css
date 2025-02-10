@@ -1,0 +1,16 @@
+.cart-actions-wrapper {
+	align-items: center;
+	border: 1px solid #605e5e;
+	border-radius: 5px;
+	display: flex;
+	justify-content: space-between;
+	padding: 5px 10px;
+	width: 100%;
+}
+
+.cart-actions-wrapper button {
+	background-color: transparent;
+	color: var(--primary-color);
+	padding: 5px;
+	border-radius: 5px;
+}

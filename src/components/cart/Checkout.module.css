@@ -1,0 +1,21 @@
+.checkout-wrapper {
+    align-items: start;
+    display: flex;
+    justify-content: space-between;
+}
+
+.checkout-wrapper form {
+    flex: 1;
+    margin-right: 30px;
+}
+
+.checkout-wrapper button {
+    width: 100%;
+}
+
+.two-col-wrapper {
+    display: flex;
+}
+.two-col-wrapper div {
+    flex-basis: 50%;
+}

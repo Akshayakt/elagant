@@ -24,7 +24,7 @@ export default function AuthForm() {
 					<h2>Sign In</h2>
 					<p>
 						Do not have an account?
-						<Link to="?mode=signup">Sign Up</Link>
+						<Link to="?mode=signup"> Sign Up</Link>
 					</p>
 				</>
 			) : (
@@ -32,7 +32,7 @@ export default function AuthForm() {
 					<h2>Sign Up</h2>
 					<p>
 						Already have an account?
-						<Link to="?mode=signin">Sign In</Link>
+						<Link to="?mode=signin"> Sign In</Link>
 					</p>
 				</>
 			)}

@@ -1,0 +1,36 @@
+footer {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+
+.footer-content {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    margin: 0 auto;
+    width: 75%;
+}
+
+.flex-container {
+    align-items: center;
+    display: flex;
+}
+
+.footer-content p {
+    margin: 0;
+}
+
+.footer-content ul {
+    line-height: 0;
+}
+
+.footer-content li {
+    background-color: var(--secondary-color);
+    margin-right: 30px;
+}
+
+.footer-content a {
+    margin-left: 20px;
+    font-weight: bold;
+}

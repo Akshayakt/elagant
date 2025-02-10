@@ -1,0 +1,9 @@
+.product-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1em;
+}
+
+.product-item:nth-child(3n) {
+    margin-right: 0;
+}

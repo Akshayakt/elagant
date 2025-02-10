@@ -1,16 +1,18 @@
 import { redirect } from "react-router-dom";
+
 import LogoImg from "../assets/logo.jpeg";
+
 import AuthForm from "../components/auth/AuthForm";
 
 export default function AuthenticationPage() {
 	return (
-		<section className="auth-container">
-			<div className="left-section">
+		<>
+			<section className="auth-left-section">
 				<h1>3legant.</h1>
 				<img src={LogoImg} alt="3legant." />
-			</div>
+			</section>
 			<AuthForm />
-		</section>
+		</>
 	);
 }
 

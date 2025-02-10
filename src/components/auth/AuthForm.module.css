@@ -1,7 +1,7 @@
 .authSection {
 	align-items: center;
 	background-color: #f2f4f6;
-	color: #000;
+	color: var(--primary-color);
 	display: flex;
 	flex: 1;
 	flex-direction: column;
@@ -10,15 +10,20 @@
 
 .form label,
 .form input,
-.form textarea {
+.form textarea,
+.form button {
 	display: block;
 	width: 100%;
 }
 
 .form input,
 .form textarea {
-	background-color: #fff;
-	color: #000;
+	background-color: var(--secondary-color);
+	color: var(--primary-color);
 	font: inherit;
 	padding: 0.25rem;
+}
+
+.authSection a {
+	color: #44cb89;
 }

@@ -1,0 +1,28 @@
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+
+.left-section {
+	display: flex;
+}
+
+.cart-item p {
+    margin-top: 0;
+}
+
+.image-wrapper {
+    align-items: center;
+    background-color: #f3f5f7;
+    display: flex;
+    min-height: 110px;
+    margin-right: 15px;
+    width: 100px;
+}
+
+.image-wrapper img {
+	width: 100%;
+}
