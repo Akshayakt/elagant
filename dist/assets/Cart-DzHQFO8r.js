@@ -1,0 +1,1 @@
+import{j as t,O as e}from"./index-CtymKqql.js";function r(){return t.jsxs("section",{className:"contents-wrapper",children:[t.jsx("h1",{className:"center-title",children:"Cart"}),t.jsx(e,{})]})}export{r as default};
